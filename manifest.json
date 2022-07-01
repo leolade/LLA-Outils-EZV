@@ -1,0 +1,19 @@
+{
+  "name": "LLA Outils EZV",
+  "description": "Application permettant de manipuler le DOM d'EasyVista pour ajouter des automatismes simples",
+  "version": "1.1",
+  "manifest_version": 3,
+  "action": {},
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://b.oxymo.soprasteria.com/",
+    "https://oxymo.soprasteria.com/",
+    "http://oxymo-backoffice.soprasteria.com/"
+  ]
+}
